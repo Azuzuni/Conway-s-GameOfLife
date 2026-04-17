@@ -1,16 +1,16 @@
 #ifdef _WIN32
 #include "Controls.h"
-#include <windows.h>
 #include <conio.h>
 #include <iostream>
+#include <windows.h>
 
 namespace {
-  HANDLE m_cHandler{};
-  HWND m_console{};
-}
+HANDLE m_cHandler{};
+HWND m_console{};
+} // namespace
 
 void Controls::Init() {
- m_cHandler = GetStdHandle(STD_OUTPUT_HANDLE); 
+  m_cHandler = GetStdHandle(STD_OUTPUT_HANDLE);
 
   if (m_cHandler == INVALID_HANDLE_VALUE || m_cHandler == nullptr) {
     std::cerr << "Error: Unable to get console handle.\n";
@@ -31,13 +31,13 @@ void Controls::Init() {
   }
 
   m_console = GetConsoleWindow();
-} 
+}
 void Controls::Restore() {} // windows has no need for this implementation
 
 char Controls::GetInput() {
-  if (_kbhit()) return _getch();
+  if (_kbhit())
+    return _getch();
   return 0;
 }
-
 
 #endif // _WIN32

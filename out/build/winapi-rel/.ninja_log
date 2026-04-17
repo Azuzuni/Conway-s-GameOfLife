@@ -1,0 +1,5 @@
+# ninja log v6
+19	2346	7981612152426720	CMakeFiles/GameOfLife.dir/src/WinMain.cc.obj	aad967830bcde66f
+15	2356	7981612152386718	CMakeFiles/GameOfLife.dir/src/screen/WinApiScreen.cc.obj	ba2f030da782cfb5
+11	2959	7981612152336711	CMakeFiles/GameOfLife.dir/src/GameOfLife.cc.obj	14e1c2473006bea3
+2960	3955	7981612181827060	GameOfLife.exe	6ae2f60cde125a7e

@@ -1,0 +1,77 @@
+{
+  "version": 6,
+  "configurePresets": [
+    {
+      "name": "winapi-dbg",
+      "displayName": "WinAPI backend",
+      "generator": "Ninja",
+      "cacheVariables": {
+        "SCREEN_BACKEND": "0",
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "winapi-rel",
+      "displayName": "WinAPI backend",
+      "generator": "Ninja",
+      "cacheVariables": {
+        "SCREEN_BACKEND": "0",
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "raylib-dbg",
+      "displayName": "Raylib backend",
+      "generator": "Ninja",
+      "cacheVariables": {
+        "SCREEN_BACKEND": "1",
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "raylib-rel",
+      "displayName": "Raylib backend",
+      "generator": "Ninja",
+      "cacheVariables": {
+        "SCREEN_BACKEND": "1",
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "console-color-dbg",
+      "displayName": "Console Color backend",
+      "generator": "Ninja",
+      "cacheVariables": {
+        "SCREEN_BACKEND": "2",
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "console-color-rel",
+      "displayName": "Console Color backend",
+      "generator": "Ninja",
+      "cacheVariables": {
+        "SCREEN_BACKEND": "2",
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    },
+    {
+      "name": "console-text-dbg",
+      "displayName": "Console Text backend",
+      "generator": "Ninja",
+      "cacheVariables": {
+        "SCREEN_BACKEND": "3",
+        "CMAKE_BUILD_TYPE": "Debug"
+      }
+    },
+    {
+      "name": "console-text-rel",
+      "displayName": "Console Text backend",
+      "generator": "Ninja",
+      "cacheVariables": {
+        "SCREEN_BACKEND": "3",
+        "CMAKE_BUILD_TYPE": "Release"
+      }
+    }
+  ]
+}
