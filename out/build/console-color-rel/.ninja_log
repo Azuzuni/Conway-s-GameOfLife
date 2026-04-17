@@ -1,7 +1,0 @@
-# ninja log v6
-21	1581	7981612771780451	CMakeFiles/GameOfLife.dir/src/Controls/Shared.cc.obj	e5a3a75af9a5dcd0
-36	2200	7981612771930456	CMakeFiles/GameOfLife.dir/src/WinMain.cc.obj	f9ff64cd406a4298
-25	2254	7981612771810492	CMakeFiles/GameOfLife.dir/src/Controls/win32.cc.obj	4744ce9ec11ba696
-17	2924	7981612771740421	CMakeFiles/GameOfLife.dir/src/screen/ConsoleScreen.cc.obj	43c2caa2cc8ad6cc
-12	3479	7981612771690421	CMakeFiles/GameOfLife.dir/src/GameOfLife.cc.obj	d309e0d496e20b0b
-3479	3693	7981612806360405	GameOfLife.exe	7ff77315501e448f
